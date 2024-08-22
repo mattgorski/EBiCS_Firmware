@@ -68,7 +68,7 @@
 //---------------------------------------------------------------------
 //Throttle settings
 #define THROTTLE_OFFSET 1250   //only default value, throttle offset is set at startup automatically
-#define THROTTLE_MAX 4300
+#define THROTTLE_MAX 3820
 #define THROTTLE_OVERRIDE
 
 //--------------------------------------------------------------------
@@ -102,11 +102,11 @@
 //---------------------------------------------------------------------
 //Regen settings
 
-#define REGEN_CURRENT 800
-#define REGEN_CURRENT_MAX 10000
+//#define REGEN_CURRENT 800
+//#define REGEN_CURRENT_MAX 10000
 //#define ADC_BRAKE
 
 //---------------------------------------------------------------------
-#define AUTODETECT 1
+#define AUTODETECT 0
 
 #endif /* CONFIG_H_ */
