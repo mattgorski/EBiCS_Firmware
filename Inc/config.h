@@ -73,7 +73,7 @@
 
 //--------------------------------------------------------------------
 //Speed settings
-#define WHEEL_CIRCUMFERENCE 2600
+#define WHEEL_CIRCUMFERENCE 2200
 #define GEAR_RATIO 98 //11 for BionX IGH3
 #define SPEEDLIMIT 60
 #define PULSES_PER_REVOLUTION 1
@@ -102,8 +102,8 @@
 //---------------------------------------------------------------------
 //Regen settings
 
-//#define REGEN_CURRENT 800
-//#define REGEN_CURRENT_MAX 10000
+#define REGEN_CURRENT 800
+#define REGEN_CURRENT_MAX 10000
 //#define ADC_BRAKE
 
 //---------------------------------------------------------------------
